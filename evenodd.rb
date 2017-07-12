@@ -1,0 +1,4 @@
+def evenoddfunction
+	"odd"
+end
+
