@@ -9,7 +9,14 @@ class TestEvenOdd< Minitest::Test
 	end
 
 def test_input_1_returns_1
-	assert_equal("odd", evenoddfunction(1))
+	assert_equal("odd",evenoddfunction(1))
 end
 
+def test_input_2_returns_even
+	assert_equal("even",evenoddfunction(2))
+end
+
+def test_input_3_returns_odd
+		assert_equal("odd",evenoddfunction(3))
+	end
 end
