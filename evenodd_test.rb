@@ -19,4 +19,13 @@ end
 def test_input_3_returns_odd
 		assert_equal("odd",evenoddfunction(3))
 	end
+
+#def test_input_wombat_returns_no_Wombats_allowed
+#	assert_equal("no wombats allowed",evenoddfunction("wombat"))
+#end
+
+def test_input_only_numbers
+	assert_equal("only numbers allowed",evenoddfunction("andy"))
+end
+
 end
