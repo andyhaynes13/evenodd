@@ -21,8 +21,11 @@ def create_mined_minds_array()
 		
 mm_array.push(counter)
 counter = counter + 1
+p "counter is here #{counter }" #THIS allows us to evaluate
 	end
 	end
 	mm_array 
+	p "mm_array is here #{mm_array}"
 end
 
+create_mined_minds_array()
